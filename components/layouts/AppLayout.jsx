@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { Component } from "react";
 import List from "../list/List";
 import ListItem from "../list/ListItem";
 
@@ -13,7 +11,7 @@ export default function AppLayout(props) {
                     <ListItem href='/account'>Account</ListItem>
                 </List>
             </aside>
-            <main className="w-full bg-gray-50">{props.children}</main>
+            <main className="w-full bg-indigo-50 px-4">{props.children}</main>
         </div>
     )
 }
